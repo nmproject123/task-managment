@@ -21,6 +21,7 @@ function EdiitTask() {
           {tasks.map(task=>
             <tr key={task._id}>
               <td> {task.name}</td>
+              <td> {task.name}</td>
               <td> {task.description}</td>
               <td> {task.date}</td>
               <td> {task.compleated}</td>
